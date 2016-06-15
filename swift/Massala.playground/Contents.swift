@@ -40,3 +40,42 @@ let oranges = 5
 let appleSummary = "I have \(apples) apples."
 
 let fruits = "I have \(apples + oranges) fruits"
+
+// 6
+
+var shoppingList = ["catfish" , "water" , "tulips"]
+
+shoppingList[1] = "bottle of water" // 0 based indice
+
+shoppingList
+
+var occupations = [
+    "Malcolm" : "Captain",
+    "Kaylee": "Mechanic"]
+occupations["Jayne"] = "Public relations"
+
+var strangeList = ["catfish", 33, 22.2]
+
+//7
+
+var emptyArray = [String]()
+
+emptyArray.append("Hello")
+
+emptyArray.append(33) // ???
+
+let emptyDictionary = [String : Float]()
+
+//07.bis
+
+var emptyArray1 = []
+emptyArray1.append(33) // ???
+emptyArray1.append("Hello")
+
+
+
+
+
+
+
+
