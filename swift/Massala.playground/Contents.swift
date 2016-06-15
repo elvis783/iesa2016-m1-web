@@ -96,11 +96,93 @@ else {
 
 // 10
 
-var individualScores = [1, 5, 8]
+var individualScore = [1, 5, 8]
 
-for score in individualScores {
+for score in individualScore {
     score * score
 }
+
+//11 
+
+let individualScores2 = [75, 43, 103, 87, 12]
+var teamScore2 = 0
+for score in individualScores2{
+    if score > 50{
+        teamScore2 += 3
+    }else {
+        teamScore2 += 1
+    }
+}
+print(teamScore2)
+
+//12
+
+var optionnalString: String? = "Hello"
+
+print(optionnalString == nil)
+
+var optionalName: String? = "John Appleseed" // nil
+
+var greeting = "Hello!"
+
+if let name = optionalName {
+    greeting = "Hello, \(name)"
+}
+
+// 13
+
+var optionalString1: String? = "Hello"
+
+print(optionalString1 == nil)
+
+var optionalString2 : String?
+
+print(optionalString2 == nil)
+
+var optionalString3: String
+
+//print(optionalString3 == nil)
+
+print("optionnalString1 + \(optionalString1)")
+print("optionnalString2 + \(optionalString2)")
+//print("optionnalString3 + \(optionalString3)")
+if let name = optionalName{
+    greeting = "Hello, \(name)"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
