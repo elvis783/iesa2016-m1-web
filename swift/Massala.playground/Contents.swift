@@ -62,15 +62,15 @@ var emptyArray = [String]()
 
 emptyArray.append("Hello")
 
-emptyArray.append(33) //
+// emptyArray.append(33) //
 
 let emptyDictionary = [String : Float]()
 
 //07.bis
 
 var emptyArray1 = []
-emptyArray1.append(33) //
-emptyArray1.append("Hello") // Pas de type
+// emptyArray1.append(33) //
+// emptyArray1.append("Hello") // Pas de type
 
 
 //8
@@ -99,7 +99,7 @@ else {
 var individualScores = [1, 5, 8]
 
 for score in individualScores {
-    score
+    score * score
 }
 
 
