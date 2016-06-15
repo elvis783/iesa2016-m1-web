@@ -62,15 +62,45 @@ var emptyArray = [String]()
 
 emptyArray.append("Hello")
 
-emptyArray.append(33) // ???
+emptyArray.append(33) //
 
 let emptyDictionary = [String : Float]()
 
 //07.bis
 
 var emptyArray1 = []
-emptyArray1.append(33) // ???
-emptyArray1.append("Hello")
+emptyArray1.append(33) //
+emptyArray1.append("Hello") // Pas de type
+
+
+//8
+
+shoppingList = []
+
+
+//9
+var score = 50
+var teamScore = 0
+
+if score > 50 {
+    teamScore += 3
+}
+
+else if score > 0{
+    teamScore = 0
+}
+    
+else {
+    teamScore += 1
+}
+
+// 10
+
+var individualScores = [1, 5, 8]
+
+for score in individualScores {
+    score
+}
 
 
 
