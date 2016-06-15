@@ -123,7 +123,7 @@ print(optionnalString == nil)
 
 var optionalName: String? = "John Appleseed" // nil
 
-var greeting = "Hello!"
+var greeting = "Hello ma petite gueule! "
 
 if let name = optionalName {
     greeting = "Hello, \(name)"
@@ -150,9 +150,26 @@ if let name = optionalName{
     greeting = "Hello, \(name)"
 }
 
+// 14 
 
+var vegetable = "red pepper"
+var vegetableComment :String
+switch vegetable {
 
+case "cucumber", "watercress":
 
+    vegetableComment = "That would make a good tea sandwich"
+
+case var x where x.hasSuffix("pepper"):
+
+    vegetableComment = "Is it a spicy \(x)?"
+
+default:
+
+    vegetableComment = "Everything tastes good in soup."
+}
+
+print("Resultat + \(vegetableComment)")
 
 
 
