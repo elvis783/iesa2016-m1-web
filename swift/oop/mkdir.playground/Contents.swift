@@ -37,3 +37,14 @@ func getInfo() -> String { return }
         func getInfo() -> String { return "\(sidesCount) sides"}
 
 var carre = NamedShape( name: "drapeau");
+
+// 26
+        /*
+        class Square : NamedShape{
+            var sideLength :
+}
+
+*/
+
+// 27 
+
